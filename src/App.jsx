@@ -1,7 +1,23 @@
+import React from "react";
+
+// create component App
+function Title() {
+  return <h1> Hello World I am title! </h1>;
+}
+
+function Description() {
+  return <h3> I am description </h3>;
+}
+
 function App() {
   return (
     <>
-      <h1> Hello World ! </h1>
+      <Title />
+      <Description />
+      <Title />
+      <Description />
+      <Title />
+      <Description />
     </>
   );
 }

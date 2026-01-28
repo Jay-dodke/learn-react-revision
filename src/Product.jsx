@@ -1,9 +1,9 @@
 import "./Product.css";
-function Product() {
+function Product({title, Price}) {
   return (
     <div className="ProductCompont">
-      <h1>Product title</h1>
-      <h5>Product description</h5>
+      <h1>{title}</h1>
+      <h5>Price: {Price}</h5>
     </div>
   );
 }

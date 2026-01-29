@@ -1,12 +1,12 @@
 import "./Button.css";
-function Onclick() {
+function ClickButton() {
   alert("Button Clicked!");
 }
 
 function Button() {
   return (
     <>
-      <button className="my-button" onClick={Onclick}>
+      <button className="my-button" onClick={ClickButton}>
         Click Me
       </button>
     </>

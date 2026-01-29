@@ -1,8 +1,8 @@
-function MessageBox({massage, age}) {
+function MessageBox({massage, age, style}) {
   return (
     <>
       <h1>
-        {massage} is {age} years old
+        <span style={style}>{massage} </span>is {age} years old
       </h1>
     </>
   );

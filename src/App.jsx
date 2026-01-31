@@ -6,6 +6,7 @@ import ProductTab from "./ProductTab";
 import PrintmessageBox from "./PrintmessageBox";
 
 import ButtonActive from "./buttonActive";
+import StatesrecPrint from "./StatesrecPrint";
 import "./App.css";
 
 // create component App
@@ -15,7 +16,7 @@ function Description() {}
 function App() {
   return (
     <>
-      <ButtonActive />
+      <StatesrecPrint />
     </>
   );
 }

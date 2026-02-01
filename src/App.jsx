@@ -7,6 +7,9 @@ import PrintmessageBox from "./PrintmessageBox";
 
 import ButtonActive from "./buttonActive";
 import StatesrecPrint from "./StatesrecPrint";
+
+import UseEffectPrint from "./UseffectPrint";
+
 import "./App.css";
 
 // create component App

@@ -19,7 +19,7 @@ function Description() {}
 function App() {
   return (
     <>
-      <StatesrecPrint />
+      <UseEffectPrint />
     </>
   );
 }
